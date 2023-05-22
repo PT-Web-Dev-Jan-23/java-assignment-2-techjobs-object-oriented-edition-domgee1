@@ -8,7 +8,7 @@ import org.launchcode.techjobs.oo.Employer;
 import org.launchcode.techjobs.oo.Job;
 import org.launchcode.techjobs.oo.PositionType;
 
-import javax.xml.stream.Location;
+import org.launchcode.techjobs.oo.Location;
 
 import static org.junit.Assert.*;
 
