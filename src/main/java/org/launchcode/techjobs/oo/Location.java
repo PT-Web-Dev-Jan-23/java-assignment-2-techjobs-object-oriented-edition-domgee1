@@ -1,10 +1,8 @@
 package org.launchcode.techjobs.oo;
 
-import java.util.Objects;
+public class Location extends JobField{
 
-public class Location {
-
-    private int id;
+  /*  private int id;
     private static int nextId = 1;
     private String value;
 
@@ -18,6 +16,11 @@ public class Location {
 
 
     // Custom toString, equals, and hashCode methods:
+
+    public Location(String value) {
+        this();
+        this.value = value.isBlank()?"Data not available":value;
+    }
 
     @Override
     public String toString() {
@@ -50,5 +53,9 @@ public class Location {
     public void setValue(String value) {
         this.value = value;
     }
+   */
 
+    public Location(String value) {
+        super(value);
+    }
 }
